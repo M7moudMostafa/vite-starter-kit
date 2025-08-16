@@ -1,5 +1,3 @@
-import "./src/test.js"
+import styles from "./src/assets/main.module.css";
 
-import collect from "collect.js";
-
-console.log(collect([1, 3, 3, 7]).avg())
+document.querySelector(".heading").classList.add(`${styles.title}`);
