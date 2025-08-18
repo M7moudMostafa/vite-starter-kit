@@ -1,3 +1,6 @@
-import styles from "./src/assets/main.module.css";
+// import data from "./src/assets/data.json"
+// console.log(data)
 
-document.querySelector(".heading").classList.add(`${styles.title}`);
+import { name, age } from './src/assets/data.json'
+console.log(name)
+console.log(age)
