@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^7.1.2",
-    "vite-plugin-inspect": "^11.3.2"
+    "vite": "^7.1.2"
   },
   "dependencies": {
-    "collect.js": "^4.36.1"
+    "@ma7moudattia/pluck": "^1.1.2"
   }
 }
